@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python3 manage.py loaddata ./data/auth.json
+# python3 manage.py loaddata ./data/<<AppName>>.json

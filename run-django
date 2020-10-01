@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --name i_domates -ti -v/home/abekkine/domates:/srv/domates -p 8001:8001 dj-docker:V1 /bin/bash
